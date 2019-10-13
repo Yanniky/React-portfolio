@@ -1,0 +1,267 @@
+.header-color{
+background: #833ab4;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #fcb045, #fd1d1d, #833ab4);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #fcb045, #fd1d1d, #833ab4); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+
+}
+.landing-grid{
+background: #833ab4;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #fcb045, #fd1d1d, #833ab4);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #fcb045, #fd1d1d, #833ab4); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+text-align: center;
+position: sticky;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+}
+.Yann{
+  position: relative;
+  margin-top: 15px;  
+  padding-top: 35px;  
+  height: 350px;
+  width: 350px;
+  box-shadow: black;
+  overflow: hidden;
+  border-radius: 100%;
+  background-size: cover; 
+
+}
+.banner-text {
+  background-color: black;
+  opacity: .8;
+  width: 75%;
+  margin: auto;
+  border-radius: 25px;
+  background-position: left top;
+}
+.banner-text h1{
+  font-family: poppin;
+  font-size: 66px;
+  font-weight: bold;
+  color: white;
+}
+.banner-text hr{
+ border-top: 5px dotted white; 
+ width: 50%;
+ margin: auto;
+}
+.banner-text p{
+ color: white;
+ font-size: 20px;
+ padding: 1em;
+ font-family: poppin;
+ }
+ .social-links{
+   padding-right: 30px;
+   justify-content: space-between;
+   width: 50%;
+  margin: auto;
+  }
+  .social-links i{
+    color: white;
+    font-size: 5em;
+    padding: 8px;
+  }
+  .contact-body{
+  
+    margin: auto;
+
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    padding: 2em;
+   
+  }
+  .contact-grid{
+    
+    margin: auto;
+    justify-content: center;
+    color: white;
+    font-family: poppin;
+    padding: 2em;
+    margin-bottom: 15px; 
+    background: #C0C0C0;
+  }
+
+  .p-text{
+   text-align: center;
+   text-size-adjust: 40px;
+   font-family: poppin
+  }
+  .contact-grid h2{
+    font-family: 'Anton', sans-serif;
+    
+  }
+  .contact-grid p{
+    font-family: 'Oxygen', sans-serif;
+    font-weight: bold;
+    font-size: 15px;
+    
+  }
+  .contact-grid hr{
+    border-top: 5px dotted  #833fb2; 
+    width: 50%;
+    margin: auto;
+  }
+  .contact-list i{
+    font-size: 66px;
+    padding-right: 5px;
+    color: white;
+
+  }
+  /* Resume page csss*/
+  .resume-right-col{
+    background: #27221F;
+    color: white;
+    
+  }
+  .Yann-resume{
+   
+    border-radius: 100%;
+    height: 350px;
+    width: 350px;
+    box-shadow: black;
+   
+
+  }
+  .Yann-about-me{
+    width: 100%;
+    Height: 500px;
+    box-shadow: 8px;
+    margin: auto;
+
+  }
+.Yann-about-me{
+  width: 152px;
+    height: 152px;
+    border-radius: 50%;
+    text-align: left;
+    border: white solid; 
+}
+.Yann-gallery{
+  width: 100%;
+  Height: 250px;
+}
+.projects-gallery{
+  width: 100%;
+  Height: 550px;
+}
+.about4{
+  width: 351px;
+  height: 450px;
+  margin: auto;  
+}
+.wrapper{
+height: 100vh;
+width: 100%;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+background-color: #258ea6; 
+}
+.form-wrapper{
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  padding: 20px 40px;
+  border-radius: 10px;
+  box-shadow: 0px 10px 50px #555;
+  background-color: #ffffff; 
+}
+form{
+  width: 100%; 
+display: flex;
+  flex-wrap: wrap;
+}
+h1{
+  text-align: center;
+  width: 100%;
+  color:  black;
+  font-weight: lighter;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+
+}
+label{
+  font-size: 1em;
+  margin-bottom: 0.25em;
+  color: #222;
+  font-weight: lighter;
+
+}
+input{
+  padding:  10px 10px;
+  border-radius: 5px;
+  outline: none;
+  border: 1px solid #cfcfcf
+}
+input::placeholder{
+  font-size: 1.2em;
+  font-weight: lighter;
+  color: #999
+}
+input.error{
+  border: red;
+  font-size: 0.75em;
+  display: relative;
+}
+.errormessage{
+  border: red;
+  font-size: 0.75em;
+  display: relative;
+
+}
+.firstName{
+  margin-right: 1%;
+}
+.lastName{
+  margin-left: 1%;
+}
+
+.firstName,
+.lastName,
+.email,
+.password{
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 15px;
+}
+.firstName,
+.lastName{
+  width: 49%
+}
+.password,
+.email{
+  width: 100%
+}
+.createAccount{
+  width:100%;
+  display: flex;
+  flex-direction: column;
+ align-items: center;
+}
+.createAccount button{
+  background-color: #519e8a;
+  color: #fff;
+  border: 2px solid #fff;
+  width: 100%;
+  margin-top: 1em;
+  padding: 8px 0px;
+  font-size: 1em;
+  font-weight: lighter;
+  letter-spacing: 1px;
+  margin-bottom: 0.25em;
+}
+.createAccount button:hover{
+  color: #519e8a;
+  background-color: #fff;
+  border: 2px solid #519e8a 
+}
+ .createAccount small{
+   color: #999;
+   font-weight: lighter;
+
+ }
+/*coolors.co color pallate*/
